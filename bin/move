@@ -6,6 +6,6 @@ puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 input= gets.strip
-index= input - 1
+index= input_to_index(input)
 
 update_array_at_with(board, index, "X")
