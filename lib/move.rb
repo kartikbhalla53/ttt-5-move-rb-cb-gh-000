@@ -9,3 +9,7 @@ end
 def update_array_at_with(array, index, value)
   array[index] = value
 end
+
+def input_to_index(user_input)
+  return user_input-1
+end
