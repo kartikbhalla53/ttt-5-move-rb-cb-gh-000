@@ -11,5 +11,6 @@ def update_array_at_with(array, index, value)
 end
 
 def input_to_index(user_input)
-  return user_input-1
+  meh = user_input-1
+  return meh
 end
